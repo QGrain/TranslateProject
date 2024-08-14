@@ -68,8 +68,8 @@ link: https://github.com/google/syzkaller/blob/master/docs/linux/troubleshooting
 
       然而，这并不保证其在所有虚拟化技术中都能工作。
  - 检查 `CONFIG_KCOV` 选项是否在虚拟机内可用：
-    - `ls /sys/kernel/debug       # 检查是否挂载了debugfs`
-    - `ls /sys/kernel/debug/kcov  # 检查kcov是否启用`
+    - `ls /sys/kernel/debug       # 检查是否挂载了 debugfs`
+    - `ls /sys/kernel/debug/kcov  # 检查 kcov 是否启用`
     - 从 `Documentation/kcov.txt` 构建测试程序并在虚拟机内运行。
  - 检查调试信息（来自 `CONFIG_DEBUG_INFO` 选项）是否可用：
     - 将 kcov 测试程序的十六进制输出传递给 `addr2line -a -i -f -e $VMLINUX`（其中 `VMLINUX` 是 vmlinux 文件，从 `kernel_obj` 配置值获取），以确认内核符号可用。
