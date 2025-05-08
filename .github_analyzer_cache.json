@@ -1,0 +1,749 @@
+{
+    "files": {
+        "cache_time": 1746692146.112485,
+        "['docs/', ['docs/translations']]": [
+            "docs/adding_new_os_support.md",
+            "docs/bisect.md",
+            "docs/ci.md",
+            "docs/configuration.md",
+            "docs/contributing.md",
+            "docs/coverage.md",
+            "docs/coverage_both.png",
+            "docs/coverage_covered.png",
+            "docs/coverage_not_instrumented.png",
+            "docs/coverage_uncovered.png",
+            "docs/coverage_weak-uncovered.png",
+            "docs/db.md",
+            "docs/headerparser_usage.md",
+            "docs/hub.md",
+            "docs/internals.md",
+            "docs/issue_template.txt",
+            "docs/maintaining.md",
+            "docs/process_structure.drawio",
+            "docs/process_structure.png",
+            "docs/program_syntax.md",
+            "docs/prometheus.md",
+            "docs/pseudo_syscalls.md",
+            "docs/pull_request_template.txt",
+            "docs/reproducing_crashes.md",
+            "docs/research.md",
+            "docs/setup.md",
+            "docs/setup_syzbot.md",
+            "docs/strace.md",
+            "docs/syscall_descriptions.md",
+            "docs/syscall_descriptions_syntax.md",
+            "docs/syz_testbed.md",
+            "docs/syz_verifier.md",
+            "docs/syz_verifier_structure.png",
+            "docs/syzbot.md",
+            "docs/syzbot.png",
+            "docs/syzbot_architecture.png",
+            "docs/syzbot_assets.md",
+            "docs/talks.md",
+            "docs/troubleshooting.md",
+            "docs/usage.md",
+            "docs/akaros/README.md",
+            "docs/darwin/0001-fuzzing.patch",
+            "docs/darwin/README.md",
+            "docs/darwin/found_bugs.md",
+            "docs/freebsd/README.md",
+            "docs/freebsd/found_bugs.md",
+            "docs/fuchsia/README.md",
+            "docs/fuchsia/setup.sh",
+            "docs/gvisor/README.md",
+            "docs/hafnium/README.md",
+            "docs/linux/coverage.md",
+            "docs/linux/external_fuzzing_network.md",
+            "docs/linux/external_fuzzing_usb.md",
+            "docs/linux/external_fuzzing_usbip.md",
+            "docs/linux/found_bugs.md",
+            "docs/linux/found_bugs_usb.md",
+            "docs/linux/internals.md",
+            "docs/linux/kernel_configs.md",
+            "docs/linux/reporting_kernel_bugs.md",
+            "docs/linux/setup.md",
+            "docs/linux/setup_linux-host_android-device_arm-kernel.md",
+            "docs/linux/setup_linux-host_isolated.md",
+            "docs/linux/setup_linux-host_qemu-vm_arm-kernel.md",
+            "docs/linux/setup_linux-host_qemu-vm_arm64-kernel.md",
+            "docs/linux/setup_linux-host_qemu-vm_riscv64-kernel.md",
+            "docs/linux/setup_linux-host_qemu-vm_s390x-kernel.md",
+            "docs/linux/setup_ubuntu-host_qemu-vm_x86-64-kernel.md",
+            "docs/linux/setup_ubuntu-host_vmware-vm_x86-64-kernel.md",
+            "docs/linux/troubleshooting.md",
+            "docs/linux/vmw-settings.png",
+            "docs/linux/wifi_fuzzing.md",
+            "docs/netbsd/README.md",
+            "docs/netbsd/found_bugs.md",
+            "docs/openbsd/found_bugs.md",
+            "docs/openbsd/gce.md",
+            "docs/openbsd/setup.md",
+            "docs/starnix/README.md",
+            "docs/trusty/README.md",
+            "docs/windows/README.md"
+        ]
+    },
+    "commits": {
+        "cache_time": 1746692146.112485,
+        "sources/syzkaller/talks.md": {
+            "collected": [
+                "b884348d83ed05e7e82aa997c494252ce0f48687",
+                "2022-09-13 15:23:57"
+            ],
+            "latest": [
+                "9f6834c9697fce4cfdfc4006ee9c10e5f170a0c3",
+                "2024-10-31 08:56:36"
+            ]
+        },
+        "sources/syzkaller/syzbot_assets.md": {
+            "collected": [
+                "fd9953953bd0d6ca41f609dd4565cff1e62df8b7",
+                "2023-07-24 12:27:08"
+            ],
+            "latest": [
+                "fe851ae118202c00a9640a322efde625607520af",
+                "2025-04-24 19:39:23"
+            ]
+        },
+        "sources/syzkaller/usage.md": {
+            "collected": [
+                "7016057751ec811d92392186ea96c53a7253ea5e",
+                "2020-08-20 17:34:52"
+            ],
+            "latest": [
+                "7016057751ec811d92392186ea96c53a7253ea5e",
+                "2020-08-20 17:34:52"
+            ]
+        },
+        "sources/syzkaller/hub.md": {
+            "collected": [
+                "c5b6fcddca80153daba328334bc48caa3a546ab5",
+                "2017-06-29 14:01:03"
+            ],
+            "latest": [
+                "c5b6fcddca80153daba328334bc48caa3a546ab5",
+                "2017-06-29 14:01:03"
+            ]
+        },
+        "sources/syzkaller/research.md": {
+            "collected": [
+                "6e78f9ceb50e5cafa8ebe0e313c32e1293871a34",
+                "2023-11-29 11:07:05"
+            ],
+            "latest": [
+                "ce3352cd01a728bcf99adce6330051b80ea425c5",
+                "2025-03-17 17:08:43"
+            ]
+        },
+        "sources/syzkaller/setup.md": {
+            "collected": [
+                "e34bcc61e44978563c3119acd57507f604386614",
+                "2022-07-06 12:48:23"
+            ],
+            "latest": [
+                "c6f10907c38ce49ddc321539f75aabf0a9ad6c71",
+                "2024-04-15 08:37:30"
+            ]
+        },
+        "sources/syzkaller/troubleshooting.md": {
+            "collected": [
+                "3b903dad230946cfd32b986bc32d44fc23eaafd1",
+                "2022-11-24 10:51:15"
+            ],
+            "latest": [
+                "dea5c7e43b28446926acb2fec04939e10f5cb835",
+                "2025-04-24 19:49:39"
+            ]
+        },
+        "sources/syzkaller/executing_syzkaller_programs.md": {
+            "collected": [
+                "d4d447cd780753901f9e00aa246cc835458a8f06",
+                "2020-09-14 07:12:55"
+            ],
+            "latest": [
+                "8f3b15c4213fbdd6918d7ddd9ffa9fd4a623dc49",
+                "2024-11-28 10:02:58"
+            ]
+        },
+        "sources/syzkaller/syz_verifier.md": {
+            "collected": [
+                "f765b597a136dee8fefef2bb5f346be80f15b8b1",
+                "2021-10-05 08:57:16"
+            ],
+            "latest": [
+                "aeb6ec69196736aadb8538796e2db8c80a499c98",
+                "2025-04-28 11:48:27"
+            ]
+        },
+        "sources/syzkaller/internals.md": {
+            "collected": [
+                "fe4122c3bf0b8032bbc19b12cf398adceba6286b",
+                "2020-05-07 18:48:17"
+            ],
+            "latest": [
+                "8f3b15c4213fbdd6918d7ddd9ffa9fd4a623dc49",
+                "2024-11-28 10:02:58"
+            ]
+        },
+        "sources/syzkaller/maintaining.md": {
+            "collected": [
+                "5ef9c29141f85f210b326ce68718498ae0c1fd35",
+                "2020-10-04 07:40:17"
+            ],
+            "latest": [
+                "5ef9c29141f85f210b326ce68718498ae0c1fd35",
+                "2020-10-04 07:40:17"
+            ]
+        },
+        "sources/syzkaller/syscall_descriptions.md": {
+            "collected": [
+                "a87f55960b1c75aa2372576b6bcae0d003ace8a9",
+                "2023-06-06 20:57:27"
+            ],
+            "latest": [
+                "c19ce525d8b8bbb454fd60909a14eb7f587eb08e",
+                "2024-08-06 14:23:23"
+            ]
+        },
+        "sources/syzkaller/syz_testbed.md": {
+            "collected": [
+                "d4d447cd780753901f9e00aa246cc835458a8f06",
+                "2020-09-14 07:12:55"
+            ],
+            "latest": [
+                "d4d447cd780753901f9e00aa246cc835458a8f06",
+                "2020-09-14 07:12:55"
+            ]
+        },
+        "sources/syzkaller/contributing.md": {
+            "collected": [
+                "a87f55960b1c75aa2372576b6bcae0d003ace8a9",
+                "2023-06-06 20:57:27"
+            ],
+            "latest": [
+                "ae18d35577c2e7e556be98bb4dc854317440a55a",
+                "2021-11-18 14:18:52"
+            ]
+        },
+        "sources/syzkaller/reproducing_crashes.md": {
+            "collected": [
+                "52c8379f77b5f292e2d527c66dfe17a899381d20",
+                "2021-10-07 10:52:29"
+            ],
+            "latest": [
+                "623305521a130ee29d32df86af67c671c60f61af",
+                "2025-03-18 02:09:04"
+            ]
+        },
+        "sources/syzkaller/configuration.md": {
+            "collected": [
+                "e503f048b0f40379900055c31da154292d105791",
+                "2019-05-21 09:47:51"
+            ],
+            "latest": [
+                "623305521a130ee29d32df86af67c671c60f61af",
+                "2025-03-18 02:09:04"
+            ]
+        },
+        "sources/syzkaller/syzbot.md": {
+            "collected": [
+                "99650870fdc1492a6033e28eac225689b2bf1c8e",
+                "2023-09-01 10:15:31"
+            ],
+            "latest": [
+                "8f3b15c4213fbdd6918d7ddd9ffa9fd4a623dc49",
+                "2024-11-28 10:02:58"
+            ]
+        },
+        "sources/syzkaller/coverage.md": {
+            "collected": [
+                "1d21e169f5af587e88b70ecd9640f8b33a76ebc5",
+                "2023-11-09 10:18:23"
+            ],
+            "latest": [
+                "59ef5a4cd18baff428782ce4a2fafa5ee4c041d0",
+                "2024-07-18 09:20:34"
+            ]
+        },
+        "sources/syzkaller/adding_new_os_support.md": {
+            "collected": [
+                "c889aef90c8deca0fd0d0e65faab5a3c0b4100d0",
+                "2022-04-25 06:36:08"
+            ],
+            "latest": [
+                "db5852f9fc9006ecee80291c7b1676b4b8fec0c1",
+                "2024-08-21 05:07:14"
+            ]
+        },
+        "sources/syzkaller/setup_syzbot.md": {
+            "collected": [
+                "a87f55960b1c75aa2372576b6bcae0d003ace8a9",
+                "2023-06-06 20:57:27"
+            ],
+            "latest": [
+                "e4fe0c5d501fb566bb595373babfe41bc67926c8",
+                "2024-10-02 16:41:41"
+            ]
+        },
+        "sources/syzkaller/bisect.md": {
+            "collected": [
+                "f900b48c62114547e55ef3513b9333196ebbb5ca",
+                "2020-11-22 13:56:13"
+            ],
+            "latest": [
+                "f900b48c62114547e55ef3513b9333196ebbb5ca",
+                "2020-11-22 13:56:13"
+            ]
+        },
+        "sources/syzkaller/strace.md": {
+            "collected": [
+                "a87f55960b1c75aa2372576b6bcae0d003ace8a9",
+                "2023-06-06 20:57:27"
+            ],
+            "latest": [
+                "a87f55960b1c75aa2372576b6bcae0d003ace8a9",
+                "2023-06-06 20:57:27"
+            ]
+        },
+        "sources/syzkaller/ci.md": {
+            "collected": [
+                "b7e1128951d0e1103b571371a5f0aa5b5b1dfba5",
+                "2018-09-25 17:38:26"
+            ],
+            "latest": [
+                "b7e1128951d0e1103b571371a5f0aa5b5b1dfba5",
+                "2018-09-25 17:38:26"
+            ]
+        },
+        "sources/syzkaller/prometheus.md": {
+            "collected": [
+                "1f4e6ed95868861aae449b3630e6cfe5a2b96c93",
+                "2021-05-26 10:19:00"
+            ],
+            "latest": [
+                "1f4e6ed95868861aae449b3630e6cfe5a2b96c93",
+                "2021-05-26 10:19:00"
+            ]
+        },
+        "sources/syzkaller/headerparser_usage.md": {
+            "collected": [
+                "6d882fd26c01d118a584b2a3aecd5f08fa5e11e1",
+                "2020-05-19 10:36:04"
+            ],
+            "latest": [
+                "6d882fd26c01d118a584b2a3aecd5f08fa5e11e1",
+                "2020-05-19 10:36:04"
+            ]
+        },
+        "sources/syzkaller/syscall_descriptions_syntax.md": {
+            "collected": [
+                "3af7dd651dc78ce0784bef793d14dd2f72d07138",
+                "2024-01-04 15:59:50"
+            ],
+            "latest": [
+                "08f03595709cd0ca9d29387a76c534d55a05ecfc",
+                "2025-03-04 00:56:22"
+            ]
+        },
+        "sources/syzkaller/pseudo_syscalls.md": {
+            "collected": [
+                "4760a80fad88909b48c1b60dd8c6d7ba991a2416",
+                "2021-07-14 05:12:39"
+            ],
+            "latest": [
+                "0b3dad4606c0984ce2d81ba5dd698fa248ce91b8",
+                "2024-05-03 08:16:58"
+            ]
+        },
+        "sources/syzkaller/db.md": {
+            "collected": [
+                "36c961ad9dc0e5b72efc784a57717424a02bfa00",
+                "2024-04-15 12:30:03"
+            ],
+            "latest": [
+                "36c961ad9dc0e5b72efc784a57717424a02bfa00",
+                "2024-04-15 12:30:03"
+            ]
+        },
+        "sources/syzkaller/program_syntax.md": {
+            "collected": [
+                "1360be3b26a4fe8a3ece98440df5a82253ac23ba",
+                "2022-10-25 10:14:37"
+            ],
+            "latest": [
+                "1360be3b26a4fe8a3ece98440df5a82253ac23ba",
+                "2022-10-25 10:14:37"
+            ]
+        },
+        "sources/syzkaller/linux/found_bugs.md": {
+            "collected": [
+                "4b4ae700b3e179a15b6eda6e990e53cf58fb46e7",
+                "2020-08-24 11:26:15"
+            ],
+            "latest": [
+                "4b4ae700b3e179a15b6eda6e990e53cf58fb46e7",
+                "2020-08-24 11:26:15"
+            ]
+        },
+        "sources/syzkaller/linux/setup_linux-host_qemu-vm_arm-kernel.md": {
+            "collected": [
+                "fab7609913c9787bdb79602ff716f5e0d1598c98",
+                "2020-09-13 17:30:55"
+            ],
+            "latest": [
+                "fab7609913c9787bdb79602ff716f5e0d1598c98",
+                "2020-09-13 17:30:55"
+            ]
+        },
+        "sources/syzkaller/linux/setup_linux-host_qemu-vm_riscv64-kernel.md": {
+            "collected": [
+                "dbadd369459b8fcd5cd96925f37d5f9d992a3ce9",
+                "2020-08-19 13:13:02"
+            ],
+            "latest": [
+                "dbadd369459b8fcd5cd96925f37d5f9d992a3ce9",
+                "2020-08-19 13:13:02"
+            ]
+        },
+        "sources/syzkaller/linux/reporting_kernel_bugs.md": {
+            "collected": [
+                "a87f55960b1c75aa2372576b6bcae0d003ace8a9",
+                "2023-06-06 20:57:27"
+            ],
+            "latest": [
+                "8f3b15c4213fbdd6918d7ddd9ffa9fd4a623dc49",
+                "2024-11-28 10:02:58"
+            ]
+        },
+        "sources/syzkaller/linux/setup.md": {
+            "collected": [
+                "1adfb6f64797865884a90b9462fa1b41a9fbd003",
+                "2023-11-23 09:42:03"
+            ],
+            "latest": [
+                "e20d7b1367f179faeed38718178841377f3accbf",
+                "2025-03-19 11:04:09"
+            ]
+        },
+        "sources/syzkaller/linux/setup_linux-host_android-device_arm-kernel.md": {
+            "collected": [
+                "7c7e90dfd1801788a85fb4a2e16ea9f8bfd8d217",
+                "2021-04-14 14:20:59"
+            ],
+            "latest": [
+                "b90978ba49e3321a2d1cd77c07c196b088c97386",
+                "2024-04-03 07:37:40"
+            ]
+        },
+        "sources/syzkaller/linux/troubleshooting.md": {
+            "collected": [
+                "d4d447cd780753901f9e00aa246cc835458a8f06",
+                "2020-09-14 07:12:55"
+            ],
+            "latest": [
+                "d4d447cd780753901f9e00aa246cc835458a8f06",
+                "2020-09-14 07:12:55"
+            ]
+        },
+        "sources/syzkaller/linux/internals.md": {
+            "collected": [
+                "4f58811192c4fcb10b81ae47ef10e733339a03c5",
+                "2020-02-25 14:01:46"
+            ],
+            "latest": [
+                "4f58811192c4fcb10b81ae47ef10e733339a03c5",
+                "2020-02-25 14:01:46"
+            ]
+        },
+        "sources/syzkaller/linux/setup_ubuntu-host_vmware-vm_x86-64-kernel.md": {
+            "collected": [
+                "a87f55960b1c75aa2372576b6bcae0d003ace8a9",
+                "2023-06-06 20:57:27"
+            ],
+            "latest": [
+                "a87f55960b1c75aa2372576b6bcae0d003ace8a9",
+                "2023-06-06 20:57:27"
+            ]
+        },
+        "sources/syzkaller/linux/wifi_fuzzing.md": {
+            "collected": [
+                "6628f5808d7ae9cb6c9c77f85acc43012b17c790",
+                "2020-10-02 09:14:36"
+            ],
+            "latest": [
+                "6628f5808d7ae9cb6c9c77f85acc43012b17c790",
+                "2020-10-02 09:14:36"
+            ]
+        },
+        "sources/syzkaller/linux/setup_linux-host_isolated.md": {
+            "collected": [
+                "a87f55960b1c75aa2372576b6bcae0d003ace8a9",
+                "2023-06-06 20:57:27"
+            ],
+            "latest": [
+                "a87f55960b1c75aa2372576b6bcae0d003ace8a9",
+                "2023-06-06 20:57:27"
+            ]
+        },
+        "sources/syzkaller/linux/coverage.md": {
+            "collected": [
+                "298a69c38dd5c8a9bbd7a022e88f4ddbcf885e16",
+                "2020-09-15 13:32:16"
+            ],
+            "latest": [
+                "298a69c38dd5c8a9bbd7a022e88f4ddbcf885e16",
+                "2020-09-15 13:32:16"
+            ]
+        },
+        "sources/syzkaller/linux/setup_linux-host_qemu-vm_s390x-kernel.md": {
+            "collected": [
+                "d4d447cd780753901f9e00aa246cc835458a8f06",
+                "2020-09-14 07:12:55"
+            ],
+            "latest": [
+                "d4d447cd780753901f9e00aa246cc835458a8f06",
+                "2020-09-14 07:12:55"
+            ]
+        },
+        "sources/syzkaller/linux/setup_ubuntu-host_odroid-c2-board_arm64-kernel.md": {
+            "collected": [
+                "a87f55960b1c75aa2372576b6bcae0d003ace8a9",
+                "2023-06-06 20:57:27"
+            ],
+            "latest": [
+                "33fec5a3ec55bce7f1664e70e6f5ff8daf56886d",
+                "2024-04-15 08:37:28"
+            ]
+        },
+        "sources/syzkaller/linux/found_bugs_usb.md": {
+            "collected": [
+                "984250d5080e0bf455725ff96551e35c3ae59457",
+                "2019-08-21 14:32:30"
+            ],
+            "latest": [
+                "984250d5080e0bf455725ff96551e35c3ae59457",
+                "2019-08-21 14:32:30"
+            ]
+        },
+        "sources/syzkaller/linux/setup_ubuntu-host_qemu-vm_x86-64-kernel.md": {
+            "collected": [
+                "d4d447cd780753901f9e00aa246cc835458a8f06",
+                "2020-09-14 07:12:55"
+            ],
+            "latest": [
+                "d4d447cd780753901f9e00aa246cc835458a8f06",
+                "2020-09-14 07:12:55"
+            ]
+        },
+        "sources/syzkaller/linux/external_fuzzing_network.md": {
+            "collected": [
+                "a87f55960b1c75aa2372576b6bcae0d003ace8a9",
+                "2023-06-06 20:57:27"
+            ],
+            "latest": [
+                "a87f55960b1c75aa2372576b6bcae0d003ace8a9",
+                "2023-06-06 20:57:27"
+            ]
+        },
+        "sources/syzkaller/linux/external_fuzzing_usbip.md": {
+            "collected": [
+                "2653fa43f8cced3279808d74e5f712bf45ef7551",
+                "2020-09-23 10:31:39"
+            ],
+            "latest": [
+                "752708b4915a303cfef6c77c7f80f7f778da133a",
+                "2024-03-14 11:26:01"
+            ]
+        },
+        "sources/syzkaller/linux/setup_linux-host_qemu-vm_arm64-kernel.md": {
+            "collected": [
+                "6b9fb3c40252a9065ac00ebe9b099955bbca4d5a",
+                "2023-06-02 21:43:12"
+            ],
+            "latest": [
+                "6b9fb3c40252a9065ac00ebe9b099955bbca4d5a",
+                "2023-06-02 21:43:12"
+            ]
+        },
+        "sources/syzkaller/linux/external_fuzzing_usb.md": {
+            "collected": [
+                "6b272a2ced094b793e9f88c8c42fab67838873f8",
+                "2023-01-25 15:40:02"
+            ],
+            "latest": [
+                "a62c66a6b6af09b86a95fbb9567ca8d9788c1956",
+                "2025-04-29 23:13:48"
+            ]
+        },
+        "sources/syzkaller/linux/kernel_configs.md": {
+            "collected": [
+                "da3d6955d5ab2888e1d0a86d6401d2aaf48406f3",
+                "2022-07-08 22:21:58"
+            ],
+            "latest": [
+                "464ac2eda061918b0834afc83052d755176d25a1",
+                "2024-09-05 01:52:29"
+            ]
+        },
+        "sources/syzkaller/fuchsia/README.md": {
+            "collected": [
+                "a1d8560a0437774e9da5f9e4bd86671acdd5b2ee",
+                "2022-10-31 21:26:04"
+            ],
+            "latest": [
+                "6baf506947ba27ed9ce775cf9351cb0886166083",
+                "2024-03-29 20:26:50"
+            ]
+        },
+        "sources/syzkaller/akaros/README.md": {
+            "collected": [
+                "a87f55960b1c75aa2372576b6bcae0d003ace8a9",
+                "2023-06-06 20:57:27"
+            ],
+            "latest": [
+                "c6f10907c38ce49ddc321539f75aabf0a9ad6c71",
+                "2024-04-15 08:37:30"
+            ]
+        },
+        "sources/syzkaller/netbsd/found_bugs.md": {
+            "collected": [
+                "329c2fa6c463795da1bee26ab8fbfc08c3f8ad1a",
+                "2020-03-21 11:27:14"
+            ],
+            "latest": [
+                "329c2fa6c463795da1bee26ab8fbfc08c3f8ad1a",
+                "2020-03-21 11:27:14"
+            ]
+        },
+        "sources/syzkaller/netbsd/README.md": {
+            "collected": [
+                "a87f55960b1c75aa2372576b6bcae0d003ace8a9",
+                "2023-06-06 20:57:27"
+            ],
+            "latest": [
+                "a87f55960b1c75aa2372576b6bcae0d003ace8a9",
+                "2023-06-06 20:57:27"
+            ]
+        },
+        "sources/syzkaller/gvisor/README.md": {
+            "collected": [
+                "22343af4ef8625de38ebba6b7c1758a27dabde73",
+                "2022-07-22 10:40:30"
+            ],
+            "latest": [
+                "22343af4ef8625de38ebba6b7c1758a27dabde73",
+                "2022-07-22 10:40:30"
+            ]
+        },
+        "sources/syzkaller/darwin/found_bugs.md": {
+            "collected": [
+                "15cea0a381c6ef9a7b4ffb2770360ce8882274c5",
+                "2021-09-01 12:42:23"
+            ],
+            "latest": [
+                "15cea0a381c6ef9a7b4ffb2770360ce8882274c5",
+                "2021-09-01 12:42:23"
+            ]
+        },
+        "sources/syzkaller/darwin/README.md": {
+            "collected": [
+                "0a4cf54d89683dff77317524c754bb668fd16f63",
+                "2022-01-18 19:03:07"
+            ],
+            "latest": [
+                "0a4cf54d89683dff77317524c754bb668fd16f63",
+                "2022-01-18 19:03:07"
+            ]
+        },
+        "sources/syzkaller/trusty/README.md": {
+            "collected": [
+                "fab7609913c9787bdb79602ff716f5e0d1598c98",
+                "2020-09-13 17:30:55"
+            ],
+            "latest": [
+                "fab7609913c9787bdb79602ff716f5e0d1598c98",
+                "2020-09-13 17:30:55"
+            ]
+        },
+        "sources/syzkaller/hafnium/README.md": {
+            "collected": [
+                "f5827293e2e7f5202cfde68b7a20db7f0bd3506a",
+                "2019-02-12 17:26:15"
+            ],
+            "latest": [
+                "f5827293e2e7f5202cfde68b7a20db7f0bd3506a",
+                "2019-02-12 17:26:15"
+            ]
+        },
+        "sources/syzkaller/starnix/README.md": {
+            "collected": [
+                "dd15ff29447cea5d39835deb22eb494a56d6fe22",
+                "2023-01-20 01:20:22"
+            ],
+            "latest": [
+                "dd15ff29447cea5d39835deb22eb494a56d6fe22",
+                "2023-01-20 01:20:22"
+            ]
+        },
+        "sources/syzkaller/windows/README.md": {
+            "collected": [
+                "03937d85286b6431a66df0f0d28bd04eaa15ec3d",
+                "2020-02-24 15:27:59"
+            ],
+            "latest": [
+                "dc18fdf9b0a2dc9a54167eaf7600075da09d023e",
+                "2024-05-06 08:38:20"
+            ]
+        },
+        "sources/syzkaller/openbsd/found_bugs.md": {
+            "collected": [
+                "1884f55a6d802b5f9e1ab64beeaf1d19ac135593",
+                "2022-01-11 07:03:31"
+            ],
+            "latest": [
+                "1884f55a6d802b5f9e1ab64beeaf1d19ac135593",
+                "2022-01-11 07:03:31"
+            ]
+        },
+        "sources/syzkaller/openbsd/setup.md": {
+            "collected": [
+                "0a4cf54d89683dff77317524c754bb668fd16f63",
+                "2022-01-18 19:03:07"
+            ],
+            "latest": [
+                "0a4cf54d89683dff77317524c754bb668fd16f63",
+                "2022-01-18 19:03:07"
+            ]
+        },
+        "sources/syzkaller/openbsd/gce.md": {
+            "collected": [
+                "b5641f32bf42f02cf749ac7ec0c8fc5d7817d802",
+                "2019-05-20 00:18:46"
+            ],
+            "latest": [
+                "b5641f32bf42f02cf749ac7ec0c8fc5d7817d802",
+                "2019-05-20 00:18:46"
+            ]
+        },
+        "sources/syzkaller/freebsd/found_bugs.md": {
+            "collected": [
+                "b78c475a45307efae6f05642b56ac2c20649a9e9",
+                "2019-04-30 06:27:53"
+            ],
+            "latest": [
+                "b78c475a45307efae6f05642b56ac2c20649a9e9",
+                "2019-04-30 06:27:53"
+            ]
+        },
+        "sources/syzkaller/freebsd/README.md": {
+            "collected": [
+                "46009ca197a7fcd4acba62b1b3f9d5b8623daa65",
+                "2022-08-26 05:34:46"
+            ],
+            "latest": [
+                "f550015e921148a45f14a8ea6ac8fe1ade4907af",
+                "2024-05-26 21:15:35"
+            ]
+        }
+    }
+}
